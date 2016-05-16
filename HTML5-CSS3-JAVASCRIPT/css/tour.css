@@ -1,0 +1,54 @@
+body{
+	background-color: #4679BD;
+}
+.font{
+	font-size: 4em;
+}
+
+
+
+.list{
+	
+	font-size: 1em;
+	text-align: center;
+	font-family: Courier New;
+}
+
+#loginTour{
+	width: 800px;
+	height: 1000px;
+	border: 1px solid black;
+	margin: 0px auto;
+	background-color: white;
+}
+h1{
+	font-family: Verdana;
+}
+h5{
+	font-family:Courier New;
+}
+blockquote{
+	font-family:Lucida Console;
+}
+
+
+#loginLink {
+    width: 50px;
+    height: 235px;
+    background: #ec7e33;
+    position: fixed;
+    top: 205px;
+    z-index: 9999;
+    right: 0;
+    border-radius: 5px;
+    
+    
+}
+
+.anchor{
+	
+	
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg); 
+
+}
