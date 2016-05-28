@@ -1,0 +1,32 @@
+<form name="myForm">
+<div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+
+        <div>
+
+            <div class="page-header text-center">
+
+
+
+                <div class="text-center">
+                    <ul class="nav nav-tabs" id="button-blink" ng-disabled="!myForm.$valid">
+                   <li> <a ui-sref-active="active" ui-sref=".step1"> Step1</a></li>
+                    <li><a ui-sref-active="active" ui-sref=".step2"> Step2</a></li>
+                    <li><a ui-sref-active="active" ui-sref=".step3"> Step3</a></li>
+                </div>
+            </div>
+
+
+
+
+                <div ui-view></div>
+
+
+        </div>
+
+
+
+
+    </div>
+</div>
+</form>
