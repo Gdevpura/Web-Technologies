@@ -32,6 +32,6 @@ sum=sum*i;
     i++;
     }
 
-document.getElementById("output").innerHTML="<br>"+"Your output is " +result +" " + "=" +sum;
+document.getElementById("output").innerHTML="Your output is " +result +" " + "=" +sum;
 document.getElementById("num").value=" ";
 }
