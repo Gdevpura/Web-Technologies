@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<table border='0' width='75%' align='center'  style="border-collapse:collapse " cellspacing='3' cellpadding='5'>
+<th colspan="7" bgcolor="#0099FF">Billing</th>
+<tr>
+ 
+    <td> Name : </td>
+    <td><input name="item_name" type="text" id="item_name" class="item_value" data-itemId="items" size="20" maxlength="50"/></td>
+     
+    <td> Company : </td>
+    <td><input name="item_price" type="text" id="item_price" class="item_value" data-itemId="items" 
+               size="20" maxlength="15"/></td>
+     
+    <td> Email : </td>
+    <td><input name="item_quantity" type="email" id="item_quant" class="item_value" data-itemId="items" size="20"/></td>
+  
+   <td> Phone : </td>
+    <td><input name="item_quantity" type="number" id="item_quantity" class="item_value" data-itemId="items" size="20"/></td>
+     
+    <td><input name="add_button" type="button" id="add_button" size="20" value="Add" /></td>
+    <td><input name="add_button" type="button" id="reset_button" size="20" value="Reset" /></td>
+ 
+ 
+</table>
+ 
+ 
+<div id="billing_items_div"> 
+  <center>Data details</center>
+<table border='1' id='bill_table'  width='50%' align='center'   cellspacing='3' cellpadding='5'>
+  <th>Name</th>
+  <th>Company</th>
+  <th>Email</th>
+  <th>Phone</th>
+  
+</table>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="js/billing.js"></script>
+</body>
+</html>
